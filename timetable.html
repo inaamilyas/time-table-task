@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table | by Inam Ilyas</title>
+    <style>
+        .container {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .page-box {
+            width: auto;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            border: 1px solid black;
+            box-shadow: 6px 8px 38px rgb(110, 110, 110);
+        }
+
+        .header {
+            width: 100%;
+            height: auto;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 20px;
+            box-shadow: 2px 3px 20px rgb(110, 110, 110);
+            /* box-shadow: 2px 3px 16px #1489af; */
+        }
+
+        .header div {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .header div h2 {
+            text-align: center;
+            font-size: 25px;
+        }
+
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .half-black {
+            /* background: pink; */
+            background: #c1c1c1;
+        }
+
+
+        table {
+            width: 780px;
+            height: auto;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        table th,
+        td {
+            border: 1px solid black;
+        }
+
+
+        thead tr :first-child {
+            text-align: center;
+            font-size: 20px;
+            padding: 3px;
+            height: 30px;
+        }
+
+        table th,
+        table td {
+            min-width: 100px;
+            height: 26px;
+            padding: 3px 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-box">
+            <div class="header">
+                <img src="logo.jpg" alt="">
+                <div>
+                    <h2>Department of Computer Science & Information Technology</h2>
+                    <p>Time Table for Semester Spring 2022, w.r.f 25-04-2022, Version: Tentative</p>
+                    <p>Programs: BS(IT) 2019-23</p>
+                </div>
+            </div>
+
+
+            <br>
+            <table>
+                <thead>
+                    <tr class="half-black">
+                        <th colspan="6">BS(IT)-6th Semester, Session 2019-23: (LH #48) w.e.f 16-05-22</th>
+                    </tr>
+                    <tr>
+                        <th>C.Code</th>
+                        <th>Time</th>
+                        <th>Days</th>
+                        <th>C.Code</th>
+                        <th>Time</th>
+                        <th>Days</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <!-- Subject 1 & 4 -->
+                    <tr>
+                        <td class="half-black"></td>
+                        <td class="half-black">08:30am-10:00am</td>
+                        <td rowspan="3" class="bold half-black">Mon-Tue</td>
+                        <td></td>
+                        <td>08:30am-10:00am</td>
+                        <td rowspan="3" class="bold">Wed-Thu</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="half-black">Web Technologies (3+0)</td>
+                        <td colspan="2">Mobile App Development (2+1)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="bold half-black">Ms. Shaista Shabbir, V/F</td>
+                        <td colspan="2" class="bold">Mr. Tayyab Arshad, Lecturer</td>
+                    </tr>
+
+                    <!-- Subject 2 & 5 -->
+                    <tr>
+                        <td></td>
+                        <td>10:00am-11:30am</td>
+                        <td rowspan="3" class="bold">Mon-Tue</td>
+                        <td class="half-black"></td>
+                        <td class="half-black">10:00am-11:30am</td>
+                        <td rowspan="3" class="bold half-black">Wed-Thu</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">IT Infrastructure(3+0)</td>
+                        <td colspan="2" class="half-black">Technical & Business Writing (3+0)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="bold">Dr. Samina Kausar, A/P</td>
+                        <td colspan="2" class="bold half-black">Ms. Mehwish Arooj, V/F</td>
+                    </tr>
+
+                    <!-- Subject 3 -->
+                    <tr>
+                        <td class="half-black"></td>
+                        <td class="half-black">11:30am-01:00pm</td>
+                        <td rowspan="3" class="bold half-black">Mon-Tue</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="half-black">E-Commerce (3+0)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="bold half-black">Dr. Hammad ul Salam, Lecturer</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <br>
+            <br>
+            <table>
+                <thead>
+
+                    <tr class="half-black">
+                        <th colspan="5">BS(IT)-6th Labs' Time Table (GP Lab)</th>
+                    </tr>
+                    <tr>
+                        <th>C.Code</th>
+                        <th>Title</th>
+                        <th>Class</th>
+                        <th>Time</th>
+                        <th>Day</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    <tr class="half-black">
+                        <td></td>
+                        <td>Mobile App Development</td>
+                        <td>IT-6th</td>
+                        <td>01:00pm - 02:30pm</td>
+                        <td>Mon & Tue</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>
