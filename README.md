@@ -4,7 +4,7 @@
 
   <ol>
     <li><strong>Index</strong></li>
-    <img src="[https://github.com/inaamilyas/login-signup-form/assets/108390164/afbaeb24-337d-4fd5-abf2-6e742100d364](https://github.com/inaamilyas/time-table-task/assets/108390164/2256d595-7578-4a65-a92a-e963cba7dc12)" >
+    <img src="https://github.com/inaamilyas/time-table-task/assets/108390164/2256d595-7578-4a65-a92a-e963cba7dc12" >
     
   </ol>
 
